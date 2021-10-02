@@ -1,5 +1,6 @@
 package com.auth0.springkafkastreams.app;
 
+import com.auth0.springkafkastreams.app.producer.NumberPublisher;
 import lombok.AllArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

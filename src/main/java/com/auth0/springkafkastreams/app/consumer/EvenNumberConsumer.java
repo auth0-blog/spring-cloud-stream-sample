@@ -1,10 +1,10 @@
-package com.auth0.springkafkastreams.app;
+package com.auth0.springkafkastreams.app.consumer;
 
 import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
-import static com.auth0.springkafkastreams.app.KafkaStream.OUTPUT_TOPIC_NAME;
+import static com.auth0.springkafkastreams.app.streams.KafkaStream.OUTPUT_TOPIC_NAME;
 
 @Component
 @EnableKafka

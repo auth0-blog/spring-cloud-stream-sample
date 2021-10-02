@@ -1,11 +1,11 @@
-package com.auth0.springkafkastreams.app;
+package com.auth0.springkafkastreams.app.producer;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 
-import static com.auth0.springkafkastreams.app.KafkaStream.INPUT_TOPIC_NAME;
+import static com.auth0.springkafkastreams.app.streams.KafkaStream.INPUT_TOPIC_NAME;
 
 @Slf4j
 @Component

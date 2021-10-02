@@ -1,4 +1,4 @@
-package com.auth0.springkafkastreams.app;
+package com.auth0.springkafkastreams.app.streams;
 
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.kstream.KStream;
